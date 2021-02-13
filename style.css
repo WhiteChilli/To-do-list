@@ -1,0 +1,118 @@
+html {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background-image: url("https://iili.io/K3NKJ9.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;    
+}
+
+h1 {
+  margin-left: 1em;
+  font-family: 'Annie Use Your Telescope', cursive;
+}
+
+
+li {
+list-style-type: none;
+background-color: #fcfcfc;
+border: 1px solid gray;
+padding: .5em;
+margin: .5em;
+}
+
+.del {
+float: right;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.mylist {
+  
+  width: 400px;
+  min-height: 400px;
+  padding: 1em;
+  border: 1px solid gray;
+  border-radius: 12px;
+  background: rgba(252,252,252, 0.9);
+}
+
+.addnew {
+  margin-top: 5em;
+}
+
+.board {
+  
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+  margin: 2em;
+  /* border: 1px solid gray; */
+  min-width: 800px;
+  max-width: 1000px;
+  height: 100%;
+  /* background-color: #fcfcfc; */
+  
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  
+}
+
+.list {
+  list-style-type: none;
+  border: 1px solid gray;
+  padding: .5em;
+  margin: .1em;
+  display: inline-block; 
+  background: seashell;
+  width: 90%;
+}
+
+.remove {
+  list-style-type: none;
+  padding: 0;
+  border: none;
+}
+
+
+/* adding new item to the list */
+
+
+
+/*button*/
+#send {
+font-family: 'Montserrat', sans-serif;
+  padding: .5em 1em .5em 1em;
+  margin: .5em;
+}
+
+.remove {
+  float: right;
+}
+
+
+/*input field*/
+#userinput {
+  padding: .5em;
+  background-color:#f7f7f7;
+font-family: 'Montserrat', sans-serif;
+}
+
+/*describe*/
+#adding {
+  padding: .5em;
+}
+
