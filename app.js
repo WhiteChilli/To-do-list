@@ -1,17 +1,15 @@
-
-
-var button = document.getElementById('send');
-var input = document.getElementById('userinput');
-var ul = document.querySelector('ul');
+const button = document.getElementById('send');
+const input = document.getElementById('userinput');
+const ul = document.querySelector('ul');
 
 button.addEventListener('click', function() {
     if (input.value.length > 0) {
-        var li = document.createElement('li'); 
-        var del = document.createElement(
+        const li = document.createElement('li'); 
+        const del = document.createElement(
        'button');
         del.innerHTML = 'x'; 
         del.style.float = 'right';
-        del.className = 'del';
+        del.className = 'del btn btn-light btn-sm';
         del.addEventListener('click', removeMe);
         ul.appendChild(li);
         li.appendChild(del);
@@ -31,4 +29,3 @@ del.forEach( button => {
 function removeMe() {
    this.closest('li').remove();
 }
-
